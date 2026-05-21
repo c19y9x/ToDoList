@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Rust build output
+src-tauri/target/
+
+# Vite build output
+dist/
+
+# Build artifacts
+*.exe
+*.msi
+*.db
+
+# Tauri auto-generated
+src-tauri/gen/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
